@@ -7,8 +7,8 @@
     This is a library to get started with streaming the videofeed of DJI drones straight to your browser.
     <br />
     <a href="https://github.com/Andreas1331/android-webrtc-dji/tree/main"><strong>Explore the code</strong></a>
-    <br />
-    <br />
+      <br />
+      <p><i>INFO: This is only tested on DJI Mavic AIR 2S and DJI Mavic Enterprise</i></p>
   </p>
 </div>
 

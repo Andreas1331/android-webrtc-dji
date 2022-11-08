@@ -93,7 +93,7 @@ socket.on("webrtc_msg", (receivee: string, msg: object) => {
 <!-- SETUP -->
 ### Setup
 
-Copy the folder containing the Java files to your android application and alter the package name to fit your solution. You will notice that a few places the occurence of ```SocketConnection``` occurs so modify that to use your own Socket handle. I will not include code for setting up sockets on android either.
+Copy the folder containing the Java files to your android application and alter the package name to fit your solution. You will notice that ```SocketConnection``` occurs a few places so modify that to use your own Socket handle. I will not include code for setting up sockets on android either.
 Once the code has been merged with your own project you only need to instantiate the ```DJIStreamer``` somewhere it will persist in your application as such:
 ```
 DJIStreamer streamer = new DJIStreamer(this);

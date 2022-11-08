@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
 <h3 align="center">DJI Android application using WebRTC </h3>
   <p align="center">

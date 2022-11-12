@@ -7,7 +7,7 @@
     <br />
     <a href="https://github.com/Andreas1331/android-webrtc-dji/tree/main"><strong>Explore the code</strong></a>
       <br />
-      <p><i>INFO: This is only tested on DJI Mavic AIR 2S and DJI Mavic Enterprise</i></p>
+      <p><i>INFO: This is only tested on DJI Mavic AIR 2S and DJI Mavic 2 Enterprise</i></p>
   </p>
 </div>
 
@@ -108,7 +108,7 @@ DroneStreamManager.setupSocketEvent(socket);
 const ds = DroneStreamManager.createDroneStream(droneSocketId, videoTagID);
 ds.startDroneStream();
 ```
-We let the ```DroneStreamManager``` instantiate an instance of ```DroneStream``` for us and invoke the ```startDroneStream()``` afterwards. Please notice the arguments for creating a drone stream; the socket ID and the video tag ID. The socket ID will be the ID belonging to the android application that is assigned when connecting to our signaling server. This is to let our signaling server know where to pass the message when it receives it. We also provide the function with the ID of the HTML video tag, so the drone stream object knows which DOM element to stream the video to once it has it.
+We let the ```DroneStreamManager``` instantiate an instance of ```DroneStream``` for us and invoke the ```startDroneStream()``` afterwards. Please notice the arguments for creating a drone stream; the socket ID and the video tag ID. The socket ID will be the ID belonging to the android application that is assigned when connecting to our signaling server. This is to let our signaling server know where to pass the message when it receives it. We also provide the function with the ID of the HTML video tag, so the drone stream object knows which DOM element to render the video to once it has it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

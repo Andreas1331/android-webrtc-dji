@@ -3,7 +3,7 @@
 <div align="center">
 <h3 align="center">Stream DJI video on Android using WebRTC </h3>
   <p align="center">
-    This is a library to get started with streaming the videofeed of DJI drones straight to your browser with low latency.
+    This is a sample to get started with streaming the videofeed of DJI drones straight to your browser with low latency.
     <br />
     <a href="https://github.com/Andreas1331/android-webrtc-dji/tree/main"><strong>Explore the code</strong></a>
       <br />
